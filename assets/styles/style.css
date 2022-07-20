@@ -1,2 +1,68 @@
 /*-------fonts------ */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Roboto:wght@100&display=swap');
+/* common styles */
+body{
+    font-family: 'Loto ',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* container of style file */
+.container{
+    width: 1000px;
+    height: 420px;
+}
+/* header inpu */
+.header-inpu{
+    width: 800px;
+    height: 380px;
+    background-color: black;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+.tiite-inpu{
+    width: 50%;
+    color: white;
+    padding: 40px;
+}
+.title{
+  font-size: 45px;
+  margin: 15px;
+}
+.title-tow{
+    width: 300px;
+    margin: 15px;
+    font-size: 12px;
+    justify-content: center;
+}
+/* images for inpormation */
+.image-inpu{
+    width: 50%;
+}
+.image-inpu img{
+    width: 100%;
+}
+ /* buttons of styles */
+.btn {
+    background-color:red ;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:0.3s;
+    margin-left: 10px;
+}
+.btn:hover{
+    background-color: green;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.btn a .fa-caret-right{
+    margin-left: 5px;
+    font-size: 12px;
+}
