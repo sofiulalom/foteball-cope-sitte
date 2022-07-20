@@ -5,11 +5,13 @@ body{
     font-family: 'Loto ',sans-serif;
     margin: 0;
     padding: 0;
+    background-color:  #dcd8d8;
 }
 /* container of style file */
 .container{
     width: 1000px;
     height: 420px;
+    margin-bottom: 40px;
 }
 /* header inpu */
 .header-inpu{
@@ -66,3 +68,76 @@ body{
     margin-left: 5px;
     font-size: 12px;
 }
+/* section playing for form */
+
+.blogs-head-inpu{
+    display: flex;
+}
+.form-inpu{
+    width: 190px;
+    height: 186px;
+    background-color: black;
+    display: flex;
+   flex-direction: column;
+   margin-left: 92px;
+   margin-right: 10px;
+   border-radius: 10px;
+
+}
+.form{
+    padding: 10px;
+   margin: 10px;
+   text-align: center;
+   background-color: white;
+   border-radius: 5px;
+
+}
+.blog{
+    background-color: red;
+   
+}
+a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+}
+
+/* play card for style */
+.play-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:5px;
+}
+.play-image{
+    width: 185px;
+    border: 1px solid gray;
+    background-color:#f8efef;
+}
+.play-image img{
+    width: 100%;
+}
+.playimg-inpu{
+    width: 190px;
+}
+
+#Transfer{
+    font-size: 12px;
+    border: 1px solid gray;
+    margin: 5px 5px;
+    padding: 2px;
+}
+h5{
+    margin: 8px 5px;
+    font-size: 12px;
+}
+span{
+    font-size: 12px;
+}
+span .fa-clock{
+   margin: 0 10px;
+   font-size: 12px;
+}
+.fa-comment{
+    margin: 0 10px;
+}
+
