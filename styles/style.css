@@ -9,9 +9,8 @@ body{
 }
 /* container of style file */
 .container{
-    width: 1000px;
+    width: 960px;
     height: 420px;
-    margin-bottom: 40px;
 }
 /* header inpu */
 .header-inpu{
@@ -72,6 +71,7 @@ body{
 
 .blogs-head-inpu{
     display: flex;
+    margin-top: 40px;
 }
 .form-inpu{
     width: 190px;
@@ -96,7 +96,7 @@ body{
     background-color: red;
    
 }
-a{
+.forma{
     text-decoration: none;
     padding: 10px 10px;
     color: black;
@@ -107,6 +107,7 @@ a{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap:5px;
+   
 }
 .play-image{
     width: 185px;
@@ -125,7 +126,10 @@ a{
     border: 1px solid gray;
     margin: 5px 5px;
     padding: 2px;
+    text-decoration: none;
+    color: black;
 }
+
 h5{
     margin: 8px 5px;
     font-size: 12px;
@@ -140,4 +144,69 @@ span .fa-clock{
 .fa-comment{
     margin: 0 10px;
 }
+/* footer  of inpormation */
 
+footer{
+    background-color: #1f1c1c;
+    color: #1f1c1c;
+}
+.fotter-inpu{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+.manu-item{
+   font-size: 12px;
+   padding: 20px;
+   
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+/* media quaery mobile phone responsive */
+@media only screen and (max-width:600px) {
+    .header-inpu {
+        width: 100%;
+       flex-direction:column;
+       height: 816px;
+
+    }
+    .blogs-head-inpu{
+        flex-direction: column;
+        margin-top: 417px;
+    }
+    .form-inpu{
+        flex-direction: column;
+        width: 277px;
+        height: 200px;
+        background: white;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .play-card, .play-image{
+        grid-template-columns: repeat(1, 1fr);
+        width: 362px;
+        margin: auto;
+    }
+    nav ul, ul li{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+/* tablet of responsive leyout */
